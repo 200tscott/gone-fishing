@@ -1,11 +1,11 @@
 const prompt = require("prompt-sync")();
 
 let fish = ([
-    {name: 'Ghanaian tilapia ', weight: 0.43, money: 3.47},
-    {name: 'Chilean sea bass', weight: 4.23, money: 20.17},
-    {name: 'Giant Rainbow fish', weight: 0.11, money: 3.87},
-    {name: 'Silver spotted Clownfish', weight: 0.82, money: 1.24},
-    {name: 'Royal blue Tang ', weight: 1.43, money: .99},
+    {name: 'Ghanaian Pink Tilapia ', weight: 0.43, money: 3.47},
+    {name: 'Chilean Sea Bass', weight: 4.23, money: 20.17},
+    {name: 'Giant Rainbow Fish', weight: 0.11, money: 3.87},
+    {name: 'Silver Spotted Clownfish', weight: 0.82, money: 1.24},
+    {name: 'Royal Blue Tang ', weight: 1.43, money: .99},
 ]);
 let stats = {
     fishCount: 0,
@@ -23,7 +23,7 @@ let time = 6
 
 console.log(' ');
 console.log('Cast your line!');
-console.log('Our hours are from 6am-12pm (you can catch no more than 10lbs)');
+console.log('Our hours are from 6am-12pm (you can\'t catch more than 10lbs)');
 console.log(' ');
 
 
@@ -35,7 +35,7 @@ while (time < 12) {
     console.log(' ');
     console.log('===============================================================');
     console.log(' ');
-    console.log(`The time is ${time}:00 am. So far you've caught:`);
+    console.log(`The time is ${time}:00 am. So far you\'ve got:`);
     console.log(`${stats.fishCount} fish, ${stats.fishWeight} lbs, $${stats.fishMoney}`);
     console.log(' ');
     console.log('===============================================================');
