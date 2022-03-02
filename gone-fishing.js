@@ -35,7 +35,7 @@ while (time < 12) {
     console.log(' ');
     console.log('===============================================================');
     console.log(' ');
-    console.log(`The time is ${time}:00. So far you've caught:`);
+    console.log(`The time is ${time}:00 am. So far you've caught:`);
     console.log(`${stats.fishCount} fish, ${stats.fishWeight} lbs, $${stats.fishMoney}`);
     console.log(' ');
     console.log('===============================================================');
